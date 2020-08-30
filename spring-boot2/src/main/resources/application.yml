@@ -1,0 +1,16 @@
+#server.port=8081 - application properties
+server:
+  port: 8081
+
+# spring.datasourse.url = ...
+# spring.datasource.username = ...
+# spring.datasource.pawword = ...
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/store
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update

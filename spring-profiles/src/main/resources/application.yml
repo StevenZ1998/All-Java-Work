@@ -1,0 +1,10 @@
+server:
+  port: 8089
+
+spring:  profiles:    active: 'dev'
+#Configuration properties
+steven:
+  message:
+    test: Hello from main application.yml
+    
+#steven.message.yml

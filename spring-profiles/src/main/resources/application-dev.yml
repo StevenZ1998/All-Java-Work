@@ -1,0 +1,9 @@
+server:
+  port: 8089
+  
+#Configuration properties
+steven:
+  message:
+    test: Hello from application-dev.yml
+    
+#steven.message.yml
